@@ -1,1 +1,1 @@
-# javascript-photo-gallery-test
+# javascript-photo-gallery

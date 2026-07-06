@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Interactive Photo Gallery</h1>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+
+        <img src="images/gta.jpg"
+             alt="Grand Theft Auto V"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="images/genshin.jpg"
+             alt="Genshin Impact"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="images/minecraft.jpg"
+             alt="Minecraft"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="images/cs2.jpg"
+             alt="Counter-Strike 2"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
